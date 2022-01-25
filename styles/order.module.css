@@ -1,0 +1,68 @@
+.container {
+  padding: 50px;
+  display: flex;
+}
+.left {
+  flex: 2;
+}
+.table {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.row:last-child {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.done {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes landPreperations {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.landPreperations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: landPreperations 1s ease infinite alternate;
+}
+
+.almostThere {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  flex: 1;
+}
+
+.wrapper {
+  width: 90%;
+  max-height: 300px;
+  background-color: rgb(41, 24, 27);
+  padding: 50px;
+  padding-top: -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+.button {
+  background-color: white;
+  height: 30px;
+  color: rgb(41, 24, 27);
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: not-allowed;
+}
